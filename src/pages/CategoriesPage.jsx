@@ -23,7 +23,6 @@ const CategoriesPage = () => {
   } = useGetLanguagesQuery();
 
 
-
   const isLanguageSelected = (languageId) =>
     userData.languages && userData.languages.includes(languageId);
 
